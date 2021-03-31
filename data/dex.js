@@ -423,7 +423,7 @@ const pokedex = {
 		types: ['fighting', 'steel'],
 		flags: {'form', 'mega', 'modded', 'm4a'},
 	},
-	dragapult: {
+	dragapultmega: {
 		types: ['dragon', 'ghost'],
 		flags: {'form', 'mega', 'modded', 'm4a'},
 	},
