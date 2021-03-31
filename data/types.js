@@ -21,7 +21,7 @@ const types = {
   },
   
   dark: {
-  	bug: 2,
+    bug: 2,
     dark: 0.5,
     dragon: 1,
     electric: 1,
@@ -42,7 +42,7 @@ const types = {
   },
   
   dragon: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 2,
     electric: 0.5,
@@ -63,7 +63,7 @@ const types = {
   },
   
   electric: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 0.5,
@@ -84,7 +84,7 @@ const types = {
   },
   
   fairy: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 0.5,
     dragon: 0,
     electric: 1,
@@ -105,7 +105,7 @@ const types = {
   },
   
   fighting: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 0.5,
     dragon: 1,
     electric: 1,
@@ -126,7 +126,7 @@ const types = {
   },
   
   fire: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 1,
     dragon: 1,
     electric: 1,
@@ -147,7 +147,7 @@ const types = {
   },
   
   flying: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 1,
     dragon: 1,
     electric: 2,
@@ -168,7 +168,7 @@ const types = {
   },
   
   ghost: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 2,
     dragon: 1,
     electric: 1,
@@ -189,7 +189,7 @@ const types = {
   },
   
   grass: {
-  	bug: 2,
+    bug: 2,
     dark: 1,
     dragon: 1,
     electric: 0.5,
@@ -210,7 +210,7 @@ const types = {
   },
   
   ground: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 0,
@@ -231,7 +231,7 @@ const types = {
   },
   
   ice: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 1,
@@ -252,7 +252,7 @@ const types = {
   },
   
   normal: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 1,
@@ -273,7 +273,7 @@ const types = {
   },
   
   poison: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 1,
     dragon: 1,
     electric: 1,
@@ -294,7 +294,7 @@ const types = {
   },
   
   psychic: {
-  	bug: 2,
+    bug: 2,
     dark: 2,
     dragon: 1,
     electric: 1,
@@ -315,7 +315,7 @@ const types = {
   },
   
   rock: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 1,
@@ -336,7 +336,7 @@ const types = {
   },
   
   steel: {
-  	bug: 0.5,
+    bug: 0.5,
     dark: 1,
     dragon: 0.5,
     electric: 1,
@@ -357,7 +357,7 @@ const types = {
   },
   
   water: {
-  	bug: 1,
+    bug: 1,
     dark: 1,
     dragon: 1,
     electric: 2,
@@ -378,7 +378,7 @@ const types = {
   },
 }
 const abilities = {
-	//Immunities
+//Immunities
   levitate: {
   	ground: 0,
   },
@@ -407,7 +407,13 @@ const abilities = {
   	water: 0,
     fire: 2,
   },
-  
+  primordialsea: {
+	  fire: 0,
+  },
+  desolateland: {
+	  water: 0,
+  },
+  //How to implement Fairy Aura/Dark Aura?
   thickfat: {
   	ice: 0.5,
   	fire: 0.5,
