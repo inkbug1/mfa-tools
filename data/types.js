@@ -425,5 +425,8 @@ const abilities = {
   fluffy: {
   	fire: 2,
   },
+  heatproof: {
+	  fire: 0.5,
+  },
   
 }
